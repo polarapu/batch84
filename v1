@@ -1,0 +1,67 @@
+									Source code Management Tool: (Version control tool)
+									===========================
+SCM : to manage code 
+====
+Tracking information like modification of code, who and when created 
+
+SVN -- sub version
+Git-- local repo
+Git-Hub -- centrol repo
+Bit-bucket --
+Gerrit --
+TFS --
+
+GIT:
+====
+3 phases
+=========
+1. workspace --- new file --untracked files(RED)  --- touch file name
+	git status
+2. staging/index area --- changes to be commited(GREEN) -- git add file name
+	git status
+3. local repository --- git commit -m "label" 
+	git status
+    git log -- local repo files 
+	git show cid --(cid -- 7 char or full )
+
+
+config GIT:
+------------
+git config --global user.name "raki"
+git config --global user.email "vishnuvalasa@gmail.com"
+
+remove(unset) GIT config:
+-------------------------
+git config --global --unset user.name
+git config --global --unset user.email
+ 
+git cmds:
+
+	touch vvr1 -- WORKSPACE
+	git status 
+	git add vvr1 -- STAGE/INDEX
+	git status 
+	git commit -m "label" vvr1 -- LOCAL REPOSIT
+	git status
+	git log 
+	git show cid 
+	
+** single commit for multiple files **
+
+	touch vvr3 vvr4 vvr5
+	git status 
+	git add . or * or -A or vvr3 vvr4 vvr5
+	git status 
+	git commit -m "3rd label" 
+	git status 
+	git log
+	git show cid
+
+** either we can connect 1 or all files **
+
+
+
+
+
+
+	
