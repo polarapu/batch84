@@ -8,6 +8,9 @@ Test line2
 smaple data from release1 branch form institute
 sample data1
 sample data2
+sample line from main branch :)
+Test line1
+Test line2
 
 git config --global --unset user.name
 git config --global --unset user.eamil
