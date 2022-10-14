@@ -1,0 +1,20 @@
+Git Class1
+====================================
+SCM(Source code management tool)
+Downlod the git according to your OS and install it
+
+git status
+git init
+git config --global user.name "Srinath Kaithoju"
+git config --gobal user.email "srinath.kaithoju@gmail.com"
+to check whether the configured it properly or not
+git config --list
+
+we can edit the existing user in Git config
+*we cannot create multiple users in git  because  it is a local machne
+ 
+how to remove the configured user name in config
+
+git config --global --unset user.name
+git config --global --unset user.email
+
