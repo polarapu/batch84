@@ -1,0 +1,28 @@
+git clone https://github.com/polarapu/batch84.git
+ls
+cd batch84
+ls
+touch file1
+git status
+git add .
+git commit -m "smaple file"
+git push
+
+rm -rf file1
+ls
+git add .
+git commit -m "deleted file"
+git push
+
+
+=============================
+mkdir dir1
+ls
+git status
+cd dir1
+touch f1 f2
+cd ..
+git status
+git add .
+git commit -m "sample dir"
+git push
