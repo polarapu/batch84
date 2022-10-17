@@ -7,49 +7,49 @@ Test line1
 Test line2
 smaple data from release1 branch form institute
 sample data1
-nksdfsdfsample data2
-sample lfine from main branch :)
-Test linesd1
-Test line2f
-f
-gfit config --global --unset user.name
-gisdt config --global --unset user.eamil
-git fconfig --list
-sdf
-gits config --global user.name "Polarapu Prasad"
-git fconfig --global user.email "devopstraining2015@gmail.com"
-fsdfsdfsdfs
-=dsf=======f=====================
-touch file1sd
-lsfsd
-git sftatus
-git adfd file1  (workspace to staging/index)
-git stasdftus
-git commitsd -m "label" file1  (staging to local)
-git statusf
-git logsdf
-git show cdfsid
-s
-=f===========================
-sdf
-tousdch file3 file4 file5
-lsf
-gitsdf status
-git adsdfd file3 file4 file5
+sample data2
+sample line from main branch :)
+Test line1
+Test line2
+
+git config --global --unset user.name
+git config --global --unset user.eamil
+git config --list
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+=============================
+touch file1
+ls
+git status
+git add file1  (workspace to staging/index)
+git status
+git commit -m "label" file1  (staging to local)
+git status
+git log
+git show cid
+
+============================
+
+touch file3 file4 file5
+ls
+git status
+git add file3 file4 file5
 or
-git add .f
-orf
-gitsf add *
-ors
-gitfs add -A
-f
-gsdfit status
-git sdfdfg.fkdbkgfngncommit -m "label"
-git statusv
-git logdf
-v
-bfg
-bgfbg
+git add .
+or
+git add *
+or
+git add -A
+
+git status
+git commit -m "label"
+git status
+git log
+
+
+
 
 
 
