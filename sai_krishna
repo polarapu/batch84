@@ -1,0 +1,10 @@
+mkdir dir1
+ls
+git status
+cd dir1
+touch f1 f2
+cd ..
+git status
+git add .
+git commit -m "sample dir"
+git push
