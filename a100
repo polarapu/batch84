@@ -1,0 +1,50 @@
+git init
+git config --global user.name "vishnu"
+git config --global user.email "vishnudevop0@gmail.com"
+git config --list
+sample line from main branch :)
+Test line1
+Test line2
+smaple data from release1 branch form institute
+sample data1
+sample data2
+sample line from main branch :)
+Test line1
+Test line2
+
+git config --global --unset user.name
+git config --global --unset user.eamil
+git config --list
+
+git config --global user.name "vishnu"
+git config --global user.email "vishnudevop0@gmail.com"
+
+=============================
+touch file1
+ls
+git status
+git add file1  (workspace to staging/index)
+git status
+git commit -m "label" file1  (staging to local)
+git status
+git log
+git show cid
+
+============================
+
+touch file3 file4 file5
+ls
+git status
+git add file3 file4 file5
+or
+git add .
+or
+git add *
+or
+git add -A
+
+git status
+git commit -m "label"
+git status
+git log
+
