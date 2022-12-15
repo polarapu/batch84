@@ -12,21 +12,6 @@ sample line from main branch :)
 Test line1
 Test line2
 
-
-
-
-okay 
-okay
-okay
-okay
-
-
-
-
-
-
-
-
 git config --global --unset user.name
 git config --global --unset user.eamil
 git config --list
